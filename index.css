@@ -1,52 +1,112 @@
-body{
+body {
     margin: 0%;
+    background-color: rgb(236, 236, 236);
 }
 
-.Cabecalho{
+
+.Cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 70px;
-    background-color: black;
-    color: yellow;
-}
-h1{
-    margin-left: 10px;
+    background-color: #fcca46;
+    color: #233d4d;
 }
 
-h1:hover{
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.p-h1{
+    font-family:'Sansita', 'sans-serif';;
+}
+
+.div-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-text, p{
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+
+.div-text, h2{
+    margin-bottom: 10px;
+}
+
+h1 {
+    
+    margin-left: 40px;
+    margin-bottom: 35px;
+    font-family: 'Sansita', sans-serif;
     font-size: 40px;
 }
 
-h1 :hover{
-    color: brown;
+h2 {
+    font-family: 'Sansita', sans-serif;
+    color: #233d4d;
+    font-size: 40px;
 }
 
-nav :hover{
-    color: white
+h1:hover {
+    font-size: 50px;
+    transition: 0.5s;
 }
-nav{
+
+h1 :link,
+h1 :visited,
+h1 :hover,
+h1 :active {
+    color: #233d4d;
+    text-decoration: none;
+}
+
+nav :hover {
+    font-size: 30px;
+    transition: 0.5s;
+
+}
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 60%;
     height: 70px;
-    background-color: yellow;
-    color: black;
+    background-color: #233d4d;
+    color: #fcca46;
     font-size: 20px;
+    font-family: 'Sansita', 'sans-serif'; 
 }
 
-@media (max-width: 700px){
-    h1{
+nav :link, nav :visited, nav :hover, nav :active {
+    color: #fcca46;
+    text-decoration: none;
+
+}
+
+.h1-link ::after{
+    content: url(favpng_siberian-husky-beagle-puppy-face-clip-art.png);
+    
+}
+
+@media (max-width: 700px) {
+    h1 {
         display: none;
     }
 
-    .Cabecalho{
+    .Cabecalho {
         height: auto;
     }
 
-    nav{
+    nav {
         flex-direction: column;
         align-items: center;
         height: auto;
