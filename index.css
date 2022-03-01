@@ -1,6 +1,6 @@
 body {
     margin: 0%;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(228, 227, 227);
 }
 
 
@@ -14,39 +14,63 @@ body {
     color: #233d4d;
 }
 
-.container{
+.container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: nowrap;
     align-items: flex-start;
-    margin-left: 40px;
+    justify-content: space-around;
+    margin-left: 20px;
 }
 
-.p-h1{
-    font-family:'Sansita', 'sans-serif';;
+.p-h1 {
+    font-family: 'Sansita', 'sans-serif';
+    ;
 }
 
-.div-text{
+.div-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.div-text, p{
+.div-text,
+p {
     font-size: 20px;
-    margin-top: 5px;
-
 }
 
-.div-text, h2{
+.div-text,
+h2 {
     margin-bottom: 10px;
 }
 
+.img-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+    height: 60%;
+    margin-top: 30px;
+  
+}
+
+
+.h2-img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 50%;
+}
+
+
 h1 {
-    
+
     margin-left: 40px;
     margin-bottom: 35px;
     font-family: 'Sansita', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 h2 {
@@ -78,23 +102,26 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 60%;
+    width: 49%;
     height: 70px;
     background-color: #233d4d;
     color: #fcca46;
     font-size: 20px;
-    font-family: 'Sansita', 'sans-serif'; 
+    font-family: 'Sansita', 'sans-serif';
 }
 
-nav :link, nav :visited, nav :hover, nav :active {
+nav :link,
+nav :visited,
+nav :hover,
+nav :active {
     color: #fcca46;
     text-decoration: none;
 
 }
 
-.h1-link ::after{
+.h1-link ::after {
     content: url(favpng_siberian-husky-beagle-puppy-face-clip-art.png);
-    
+
 }
 
 @media (max-width: 700px) {
