@@ -15,82 +15,6 @@ body {
     color: #233d4d;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    margin-left: 20px;
-}
-
-.container2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-left: 5px;
-
-}
-
-.container3 {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-}
-
-.p-h1 {
-    font-family: 'Sansita', 'sans-serif';
-    margin-left: 15px;
-}
-
-.div-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.div-text,
-p {
-    font-size: 20px;
-}
-
-.div-text,
-h2 {
-    margin-bottom: 10px;
-    margin-left: 15px;
-}
-
-.img-principal {
-    
-    width: 50%;
-    height: 60%;
-    margin-top: 30px;
-    margin-left: 0%;
-
-}
-
-fieldset {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-button {
-    border-radius: 5px;
-}
-
-#h2-lorem {
-    margin-left: 25px;
-}
-
-#p-h2 {
-   
-    margin-left: 25px;
-    font-size: 24px;
-}
-
 
 h1 {
     margin-left: 40px;
@@ -143,6 +67,75 @@ nav :active {
 
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+
+}
+
+.container3 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.p-h1 {
+    font-family: 'Sansita', 'sans-serif';
+    margin-left: 15px;
+}
+
+.div-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-text,
+p {
+    font-size: 20px;
+}
+
+.div-text,
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border-radius: 5px;
+}
+
+#p-h2 {
+    font-size: 24px;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .img-dog {
     object-fit: fill;
     border-radius: 10px;
@@ -151,9 +144,6 @@ nav :active {
     margin-bottom: 20px;
 }
 
-.img-dog:nth-child(10n) {
-    margin-left: 0%;
-}
 
 .h1-link ::after {
     content: url(img/icons/favpng_siberian-husky-beagle-puppy-face-clip-art.png);
@@ -183,7 +173,7 @@ nav :active {
         height: auto;
     }
 
-    .h2-img {
+    .info-text {
         display: flex;
         flex-direction: column;
     }
